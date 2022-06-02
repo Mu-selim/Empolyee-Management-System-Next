@@ -13,7 +13,7 @@ I used Microsoft dot net  technology as much I know. I also used programming con
 - panels
 - UI techniques
 
-Video illustrates application working [Youtube](https://youtu.be/6iHbtuMa-Rs)
+Video illustrates application working [Youtube](https://youtu.be/6iHbtuMa-Rs).
 
 ## Some Screens from Application
 ![_1](https://user-images.githubusercontent.com/89293751/171727753-4637e291-540f-4f26-9249-e24e83e968e2.jpg)
