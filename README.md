@@ -17,6 +17,37 @@ Video illustrates application working [Youtube](https://youtu.be/6iHbtuMa-Rs).
 
 ## Some Screens from Application
 ![_1](https://user-images.githubusercontent.com/89293751/171727753-4637e291-540f-4f26-9249-e24e83e968e2.jpg)
+
+```javascript
+namespace Next
+{
+    public partial class NextApp : Form
+    {
+        public NextApp()
+        {
+            InitializeComponent();
+        }
+        private void exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void login_Click(object sender, EventArgs e)
+        {
+            login obj = new login();
+            this.Hide();
+            obj.Show();
+        }
+
+        private void register_Click(object sender, EventArgs e)
+        {
+            register obj = new register();
+            this.Hide();
+            obj.Show();
+        }
+    }
+}
+```
 ![_2](https://user-images.githubusercontent.com/89293751/171727826-505c5465-ba85-4a56-8da3-483ea6ef56f0.jpg)
 ![_6](https://user-images.githubusercontent.com/89293751/171727847-f1b42615-0ff1-4197-879a-cdb0e9a163fe.jpg)
 ![_8](https://user-images.githubusercontent.com/89293751/171727862-da952e00-c14a-430f-8ccd-895cd92f0572.jpg)
